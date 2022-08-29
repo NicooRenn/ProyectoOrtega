@@ -1,0 +1,90 @@
+
+/*Abre ConteinerGrid, decoracion para header */
+.ConteinerGrid{
+	display: grid;
+	grid-template-columns: auto auto;
+		grid-template-rows: auto, auto;
+	gap: 10px;
+}
+ .ConteinerGrid > *{
+	 border: none;
+	 text-align: center;
+	 color:  #1b2631;
+
+}
+nav ul li{
+     display:inline;
+     padding-left:3px;
+     padding-right:3px;
+ }
+/*Abre Decoracion para header y footer*/
+	header, footer{
+		grid-column: 1/span 3;
+		background-color: darkgray;
+		font-size: 20px;
+	}
+/* Abre decoracion para header y ul*/
+.header, nav, ul{
+	list-style: none;
+	font-size: 25px;}
+	.header {
+		background-image: url(../assets/img/fondoladrillos.jpg);
+	}
+
+	li{
+		margin-right: 25px;
+		padding: auto;
+	}
+
+	a {
+	  outline: none;
+	  text-decoration: none;
+	}
+
+	a{
+		font-style: bold;
+     }
+/*Cierra decoracion para header y ul*/	
+/*Abre decoracion para footer*/
+.Footer {
+	list-style: none;
+	font-size: 25px;}
+	.Footer {
+		background-image: url(../assets/img/fondoladrillos.jpg);
+	}
+/*Cierra decoracion para footer*/
+/*Abre grid-column para .Center* y Size Images*/
+	.Center{
+		grid-column: 1/span 3;
+		margin-left: auto;
+		margin-right: auto;
+    }
+		img {
+		 height: auto;
+		 width: 250px;
+		}	
+/*Cierra decoracion para .Center* y Size Images/
+/*Abre decoracion de fuente para body, h1, h2, h3*/
+	body{
+		font-family: monospace, courier New;
+	}
+	h1{
+		font-style: bold;
+		font-size: 35px;
+	}
+	h2{
+		font-style: bold;
+		font-size: 25px;
+	}
+
+/*Abre media screen y max ancho*/
+	@media screen and (max-width: 500px) {
+		.LogoEdi {max-width: 350px;}
+		.header {max-width: 350px;}
+		.Center {max-width: 350px;}
+		.Footer {max-width: 350px;}
+		.iframe {
+                    max-width: 100% ;
+                    width: auto;
+                    height: auto;
+	             }

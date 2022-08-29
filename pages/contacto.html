@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Linkeo de CSS -->
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+	<title>Edicionilimitada - Contacto</title>
+</head>
+<body>
+ <!-- Abre header-->
+ <div class="ConteinerGrid">
+	 <header class="header">
+			<!--Logo-->
+			<div>
+				<img src="../assets/Img/Logo.png" alt="Logo Edicionilimitada" class="LogoEdi">
+			</div>
+		 <nav class="NavigationLink">
+		 	 <!-- Lista no Ordenadas -->
+			 <ul class="UnordList">
+			     <li>
+			         <a href="../index.html">Inicio</a>
+			      </li>
+			     <li>
+			 	     <a href="../pages/merchandising.html">Merchandising</a>
+			     </li>
+			     <li>
+			  	     <a href="../pages/props.html">Props</a>
+			     </li>
+			     <li>
+			 	     <a href="#">Contacto</a>
+			     </li>
+			 </ul>
+		 </nav>
+	 </header>
+ <!-- Cierre header-->
+ <!-- Abre contenido -->
+ <main class="Center">
+		<h1>Contacto</h1>
+		 <h2>Puedes contactarte con nosotros en persona o por email</h2>
+		 <!-- abre formulario-->
+		  <form action="#">
+		 	     <label for=" Nombrelargo"> Nombre:</label>
+		 	       <input type="Text" name="Nombre"> <br>
+		 	     <label for="Apellidolargo"> Apellido:</label>
+		 	       <input type="Text" name="Apellido"> <br>
+		 	     <label for="CorreoElectronicolargo"> Correo Electronico</label>
+		 	       <input type="email" name="CorreoElectronico"> <br>
+		 	       <label for="NumeroTelefono"> Numero Telefonico</label>
+		 	       <input type="Tel" name="NumeroTelefono"> <br>
+		 	     <label>
+		 	     	¿Deseas Suscribirte a nuestro Newsletter? <br>
+		 	       <input type="radio" name="Newsletter" value="Si" required> Si	
+		 	     </label> <br>
+		 	     <label>
+		 	       <input type="radio" name="Newsletter" value="No" required> No	
+		 	     </label> <br>
+	    	 <!-- preferencia contacto -->
+	    	 <div>
+		 	     Preferencia de Contacto:
+		 	     <select name="select">
+		 	     <option value="0">Llamada Telefonica</option>
+		 	     <option value="1">Mensaje Whatsapp</option>
+		 	     <option value="2">Email</option>
+		 	     </select>
+		     </div>
+		     <!-- cierra preferencia contacto -->
+		     <!-- abre comentarios -->
+	    	 <div>
+		         <div>Comentarios:</div>
+		         <textarea id="" name="" cols="40" rows="15"></textarea> <br>
+	    	 </div> 
+	    	 <!-- cierra seccion comentarios -->
+	    	 <input type="submit" value="Enviar">
+	    	 <input type="reset" value="Limpiar Todo">
+		  </form>
+		<!-- cierra formulario-->
+ </main>
+ <!-- Cierre contenido -->	 
+ <!-- Abre Como llegar (iframe)-->
+  <div class="MapaLlegar">
+     <h3>¿Cómo llegar?</h3> <br>
+	   <iframe class=iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.160209054275!2d-58.410841!3d-34.6031487!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfc0cf5c054da4aa1!2sAbasto%20Shopping!5e0!3m2!1ses-419!2sar!4v1659337011321!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div> 
+ <!-- Cierra Como llegar -->	
+ <!--Abre footer - Redes (no son links reales) -->	
+ <footer class="Footer">
+	 <div>
+		<h4>Redes</h4>
+			<li>
+				<a href="https://instagram.com/blablabla"> Instagram</a>	
+				<a href="https://twitch.tv/blablabla"> Twitch</a>
+				<a href="https://discord.com/blablabla"> Discord</a>
+			</li>
+	 </div>
+ </footer>
+ <!-- Cierre footer -->
+</body>
+</html>
